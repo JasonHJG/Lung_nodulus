@@ -1,4 +1,4 @@
-# Lung_nodulus
+## Lung_nodulus
 Detection of lung nodulus with deep learning
 
 # read.py 
