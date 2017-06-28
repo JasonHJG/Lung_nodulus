@@ -77,7 +77,7 @@ for i in range(size):
             im2.save(file_train_pos_2)
             im3.save(file_train_pos_3)
             
-        elif num_pos>1200 and num_pos<1801:
+        elif num_pos>1200 and num_pos<1501:
             file_valid_pos_1=newpath_train1+'/positive/'+str(ID1)+'.png'
             file_valid_pos_2=newpath_train1+'/positive/'+str(ID2)+'.png'
             file_valid_pos_3=newpath_train1+'/positive/'+str(ID3)+'.png'
@@ -94,7 +94,7 @@ for i in range(size):
             im1.save(file_train_neg_1)
             im2.save(file_train_neg_2)
             im3.save(file_train_neg_3)
-        elif num_neg>1200 and num_neg<1801:
+        elif num_neg>1200 and num_neg<2101:
             file_valid_neg_1=newpath_train1+'/negative/'+str(ID1)+'.png'
             file_valid_neg_2=newpath_train1+'/negative/'+str(ID2)+'.png'
             file_valid_neg_3=newpath_train1+'/negative/'+str(ID3)+'.png'
@@ -102,7 +102,7 @@ for i in range(size):
             im2.save(file_valid_neg_2)
             im3.save(file_valid_neg_3)
         num_neg+=3 
-    if num_pos >1801 and num_neg>1801:
+    if num_pos >1801 and num_neg>2101:
         break
             
             
