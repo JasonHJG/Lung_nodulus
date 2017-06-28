@@ -21,7 +21,7 @@ validation_data_dir = 'data/validation'
 # training and verification set size
 nb_train_samples = 2400
 nb_validation_samples = 1200
-epochs = 5
+epochs = 50
 batch_size = 12
 
 
